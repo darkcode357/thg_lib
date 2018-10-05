@@ -1,141 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63388396-72e2-4921-ab18-b41723b42717" name="Default Changelist" comment="add fl">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG/THG-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG/seclogin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG/seclogin/login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG/toplevel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_anti_forensic/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_automation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_automobile/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_arquivo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_baixar/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_baixar/baixar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_DB2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_Oracle/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_Oracle/brf_oracle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_casandra/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_mangodb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_mysql/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_mysql/brf_mysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_postgresql/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_postgresql/brf_postgresql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_sqlserver/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_sqlserver/brf_sqlserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/gera/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/gera/gera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_ftp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_smb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_smb/brf_smb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_smtp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_ssh/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_check_hosts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_check_hosts/check_host.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_convert/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_convert/convert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_cores/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_cores/conf_colors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_cores/cores.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_debug/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_debug/debug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_decode/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_decode/conf_decode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_decode/decode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_encode/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_encode/conf_encode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_encode/encode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_gera_wordlist/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_gera_wordlist/gera_wordlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_hash_encode/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_hash_encode/hash_encode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_services/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_auxiliares/thg_services/ssh.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_backdoor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_binary/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_bluetooth/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_code_audit/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_cracker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_cracker/id_rsa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_crypto/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_cryptography/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_database/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_debugger/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_decompiler/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_defensensive/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_defensive/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_disassembler/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_docs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_docs/docs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_dos/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_dos/brainiac_dos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_drone/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_exploitation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_fingerprint/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_firmware/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_forensic/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_gpu/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_hardware/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_honeypot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_ids/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_keylogger/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_malware/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_misc/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_mobile/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_networking/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_networking/brainiac_connect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_nfc/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_packer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_proxy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_radio/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_recon/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_reversing/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_server/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_server/ctf/deepweb_shell_cuidado/url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_server/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_shells/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_shells/shells.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_sniffer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_social/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_spoff/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_spoof/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_stego/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_tunnel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_unpacker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_version/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_version/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_voip/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_windows/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_libs/thg_wireless/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/THG_report/ctf_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG-dev/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mkdocs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/libs_install.py" beforeDir="false" />
-    </list>
+    <list default="true" id="63388396-72e2-4921-ab18-b41723b42717" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538777577355</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="transferencia do thg_pwn para repositorios diferentes">
+      <created>1538778041100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538778041100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -252,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add fl" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fl" />
+    <MESSAGE value="transferencia do thg_pwn para repositorios diferentes" />
+    <option name="LAST_COMMIT_MESSAGE" value="transferencia do thg_pwn para repositorios diferentes" />
   </component>
 </project>
