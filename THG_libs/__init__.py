@@ -40,6 +40,8 @@ __all__ = [
     'thg_binary',
     'thg_defensensive',
     'thg_gpu',
+    'thg_os',
+    'thg_nfc',
     'thg_nfc',
     'thg_spoof',
     'thg_version',
@@ -64,3 +66,4 @@ __all__ = [
 
 for module in __all__:
     importlib.import_module('.%s' % module, 'THG_libs')
+    print("total modulos => " + str(len(__all__)))
