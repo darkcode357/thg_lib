@@ -1,0 +1,6 @@
+site_name: THG_pwn_doc
+pages:
+    - 'introdução': 'index.md'
+    - 'sobre': 'about.md'
+
+theme: material
