@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 import importlib
 
-__all__ = [
+__thg_module__ = [
     'thg_server',
     'thg_version',
     'thg_shells',
@@ -63,7 +63,7 @@ __all__ = [
     'thg_auxiliares'
 ]
 
+print("total modulos => " + str(len(__thg_module__)))
 
-for module in __all__:
+for module in __thg_module__:
     importlib.import_module('.%s' % module, 'THG_libs')
-    print("total modulos => " + str(len(__all__)))

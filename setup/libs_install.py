@@ -1,7 +1,7 @@
 from os import system
 a =    [
         'mkdocs-bootstrap  beautifulsoup4 requests filemagic  passlib hexdump pymysql cx_Oracle psycopg2 pymongo wget python-nmap GitPython nclib paramiko mako pyelftools capstone ropgadget pyserial requests pip tox rarfile pygments pysocks python-dateutil packaging psutil intervaltree unicorn',
-        'pycurl ajpy pyopenssl cx_Oracle psycopg2 pycrypto dnspython IPy pysnmp pyasn1 pysmb mkdocs ipgetter future requests paramiko pysnmp pycryptodome',
+        'pycurl ajpy pyopenssl cx_Oracle psycopg2 pycrypto dnspython IPy pysnmp pyasn1 pysmb mkdocs  future requests paramiko pysnmp pycryptodome distorm3',
         ]
 
 for  i in a:

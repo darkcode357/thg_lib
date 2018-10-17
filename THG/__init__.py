@@ -1,3 +1,6 @@
+from .toplevel import *
+
+'''
 # coding=utf-8
 from __future__ import absolute_import
 import platform
@@ -8,7 +11,7 @@ from THG_libs.thg_auxiliares.thg_cores.cores import Cores
 from THG_libs.thg_auxiliares.thg_check_hosts.check_host import Check_all
 from THG_libs.thg_version.version import version
 import socket
-import ipgetter
+#import ipgetter
 import sys
 from .toplevel import *
 
@@ -21,9 +24,9 @@ class check_brainiac:
         s.connect(("8.8.8.8", 80))
         a = s.getsockname()[0]
         Debug.INFO("[+]ip_interno " + a)
-    def ipe():
-        a = ipgetter.myip()
-        Debug.INFO("[+]ip_interno "+a)
+    #def ipe():
+        #a = ipgetter.myip()
+        #Debug.INFO("[+]ip_interno "+a)
     def is_connected():
         try:
             socket.create_connection(("www.google.com", 80))
@@ -96,8 +99,9 @@ else:
     Cores.cores("vermelho","###############################")
     Cores.cores("azul","[+]iniaciando checking")
     check_brainiac.is_connected()
-    check_brainiac.ipe()
+    #check_brainiac.ipe()
     check_brainiac.ipi()
     check_brainiac.check_python_version()
     check_brainiac.check_gcc_version()
     check_brainiac.check_programas()
+'''
