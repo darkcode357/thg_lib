@@ -17,7 +17,7 @@ class Gera_wordlist():
         str2[str]=[nome da wordlist]
         verbose=True[se vc habilitar o verbose vc podera ver a saida da sua wordlist]
 
-    exemplo:
+    thg_exemplo:
         Gera_wordlist.Gera(1,2,"abc123","THG_test",verbose=True)
     saida:
     a
