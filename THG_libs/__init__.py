@@ -1,10 +1,11 @@
 from __future__ import absolute_import
 from .thg_auxiliares.thg_cores.cores import *
 # coding=utf-8
-
+from .thg_version.version import version
 
 import importlib
 
+version()
 __thg_module__ = [
     'thg_server',
     'thg_version',
@@ -64,14 +65,11 @@ __thg_module__ = [
     'thg_unpacker',
     'thg_auxiliares'
 ]
-load = input("completo=1 ou file=2 =>")
+print("total modulos => " + str(len(__thg_module__)))
 
-if load == str(1):
-    print("total modulos => " + str(len(__thg_module__)))
-
-    for module in __thg_module__:
-        importlib.import_module('.%s' % module, 'THG_libs')
-
+for module in __thg_module__:
+    importlib.import_module('.%s' % module, 'THG_libs')
+'''
 elif load == str(2):
     with open("load_libs")as fl:
         for i in fl.read().splitlines():
@@ -83,3 +81,4 @@ elif load == str(2):
 
 else:
     pass
+'''

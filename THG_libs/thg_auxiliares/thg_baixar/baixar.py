@@ -15,9 +15,9 @@ class Baixar():
         elif saida == None:
             print("local padrao [/tmp]")
             try:
-                local = "/tmp"
-                arquivo = wget.download(url=url, out=local)
-                Debug.AVISO("Diretorio => [" + local + "]")
+                _local = "/tmp"
+                arquivo = wget.download(url=url, out=_local)
+                Debug.AVISO("Diretorio => [" + _local + "]")
                 Debug.AVISO("Arquivo => [" + arquivo + "]")
             except Exception:
                 pass

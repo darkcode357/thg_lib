@@ -1,12 +1,25 @@
 from os import system
-a =    [
-        'mkdocs-bootstrap  beautifulsoup4 requests filemagic  passlib hexdump pymysql cx_Oracle psycopg2 pymongo wget python-nmap GitPython nclib paramiko mako pyelftools capstone ropgadget pyserial requests pip tox rarfile pygments pysocks python-dateutil packaging psutil intervaltree unicorn',
-        'pycurl ajpy pyopenssl cx_Oracle psycopg2 pycrypto dnspython IPy pysnmp pyasn1 pysmb mkdocs  future requests paramiko pysnmp pycryptodome distorm3',
-        ]
 
-for  i in a:
+database = [
+        'cloudera-director-python-client cm-client cm-api crepo altuscli redis  ifxpy pymysql cx_Oracle psycopg2 pymongo ibm_db pyodbc  teradata mysql-connector mysql  neo4j-driver pyorient toad pyarrow  ']
+
+network = [
+        'beautifulsoup4 requests wget python-nmap GitPython nclib paramiko pyserial requests pysocks packaging pycurl ajpy pyopenssl dnspython  pysnmp pyasn1 pysmb  pysnmp']
+
+aux = [
+        'mkdocs-bootstrap  filemagic  passlib hexdump  mako pyelftools capstone ropgadget pip tox rarfile pygments python-dateutil  psutil intervaltree unicorn pycrypto  IPy  mkdocs  future requests paramiko  pycryptodome distorm3']
+print("install database")
+for i in database:
         from os import system
-        print ("\ninstall => %s\n"%i)
-        system("pip3 install "+i)
 
-system("pip3 install git+https://github.com/arthaud/python3-pwntools")
+        system("pip3 install " + i)
+print("install network")
+for i in network:
+        from os import system
+
+        system("pip3 install " + i)
+print("install aux")
+for i in aux:
+        from os import system
+        system("pip3 install "+i)
+# system("pip3 install git+https://github.com/arthaud/python3-pwntools")
