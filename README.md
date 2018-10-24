@@ -3,6 +3,16 @@ python exploit developer
 fix all
 
 ![Screenshot](https://github.com/darkcode357/thg_lib/blob/master/THG/THG-2.png)
+
+
+O thg vem com objetivo de ser uma biblioteca  voltado para desenvilvimentos de ferramentas em 
+python3.7, seguindo a linha do python3.x.
+
+Seguindo abaixo, temos todos os modulos da biblioteca com links magneticos para leitura da  modulo e submodulo
+
+
+
+
 thg_server
 
 thg_version
