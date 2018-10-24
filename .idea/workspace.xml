@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63388396-72e2-4921-ab18-b41723b42717" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/THG_libs/thg_database/oracle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THG_libs/thg_database/postgresql/PostgreSQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THG_libs/thg_database/postgresql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THG_libs/thg_database/teradata/Teradata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THG_libs/thg_database/teradata/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/setup.py" afterDir="false" />
+    <list default="true" id="63388396-72e2-4921-ab18-b41723b42717" name="Default Changelist" comment="add docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG/.__init__.py.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG/seclogin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_database/mangodb/MangoDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG/seclogin/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_database/mangodb/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG_libs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG_libs/load_libs" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_database/oracle/Oracle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THG/toplevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG/toplevel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THG_libs/thg_version/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_version/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/libs_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup/libs_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_convert/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_convert/convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mkdocs.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +61,7 @@
     <session id="451055905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -80,35 +73,37 @@
           <entry key="LICENSE" value="2" />
           <entry key="extra_libs" value="1" />
           <entry key="load_libs" value="4" />
-          <entry key="md" value="10" />
+          <entry key="md" value="12" />
           <entry key="png" value="1" />
-          <entry key="py" value="47" />
+          <entry key="py" value="54" />
           <entry key="tools" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="10" />
+          <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="47" />
+          <entry key="Python" value="54" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="extra_libs" value="2" />
           <entry key="load_libs" value="70" />
-          <entry key="md" value="244" />
-          <entry key="py" value="1916" />
+          <entry key="md" value="245" />
+          <entry key="py" value="2786" />
           <entry key="tools" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="244" />
-          <entry key="PLAIN_TEXT" value="81" />
-          <entry key="Python" value="1916" />
+          <entry key="Markdown" value="245" />
+          <entry key="PLAIN_TEXT" value="91" />
+          <entry key="Python" value="2786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -116,49 +111,66 @@
     <session id="-656841537">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="162" />
+          <entry key="md" value="20" />
+          <entry key="py" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="162" />
+          <entry key="Markdown" value="20" />
+          <entry key="Python" value="224" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THG_libs/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#137#1237#0" />
-                <marker date="1540153928961" expanded="true" signature="158:169" ph="..." />
-              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THG_libs/thg_docs/docs.py">
+        <entry file="file://$PROJECT_DIR$/THG/toplevel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AUTHORS.md">
+        <entry file="file://$PROJECT_DIR$/docs/mkdocs.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/docs/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -168,70 +180,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/load_libs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+        <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THG_libs/thg_dos/brainiac_dos.py">
+        <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="390">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THG_libs/thg_docs/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/THG/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <marker date="1539778643021" expanded="true" signature="690:699" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THG/THG-2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_convert/convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -282,9 +285,13 @@
         <option value="$PROJECT_DIR$/THG_libs/thg_database/postgresql/PostgreSQL.py" />
         <option value="$PROJECT_DIR$/THG_libs/thg_database/teradata/Teradata.py" />
         <option value="$PROJECT_DIR$/setup/setup.py" />
-        <option value="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py" />
         <option value="$PROJECT_DIR$/THG_libs/thg_version/__init__.py" />
         <option value="$PROJECT_DIR$/THG_libs/__init__.py" />
+        <option value="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py" />
+        <option value="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py" />
+        <option value="$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_convert/convert.py" />
+        <option value="$PROJECT_DIR$/THG/toplevel.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -316,6 +323,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -420,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540053821875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add docs">
+      <created>1540154417336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540154417336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,26 +488,11 @@
     <MESSAGE value="transferencia do thg_pwn para repositorios diferentes" />
     <MESSAGE value="add stp end android" />
     <MESSAGE value="fix all" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix all" />
+    <MESSAGE value="add docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docs" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_decompiler/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_disassembler/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_hash_encode/hash_encode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_casandra/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py" />
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_DB2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py" />
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_cracker/services_bruteforce/bruteforce_ftp/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -542,13 +542,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_cores/cores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#129#998#0" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/THG_libs/THG_extra/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -571,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <marker date="1540053821594" expanded="true" signature="16:21" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,15 +587,6 @@
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_database/teradata/Teradata.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_bluetooth/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -618,42 +600,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/THG/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <marker date="1539778643021" expanded="true" signature="690:699" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG/THG-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG/seclogin/login.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG/toplevel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/load_libs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/THG/seclogin/login.py" />
+    <entry file="file://$PROJECT_DIR$/THG_libs/load_libs" />
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_version/version.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -667,12 +615,7 @@
     <entry file="file://$PROJECT_DIR$/THG_libs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#137#1237#0" />
-            <marker date="1540153928961" expanded="true" signature="158:169" ph="..." />
-          </folding>
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -682,17 +625,14 @@
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_dos/brainiac_dos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THG_libs/thg_docs/docs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -718,7 +658,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -729,7 +669,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -745,12 +685,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1247971762/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="4736" column="8" selection-start-line="4736" selection-start-column="8" selection-end-line="4736" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_arquivo/arquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_baixar/baixar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG_libs/thg_auxiliares/thg_convert/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1539778643021" expanded="true" signature="690:699" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG/THG-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THG/toplevel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>

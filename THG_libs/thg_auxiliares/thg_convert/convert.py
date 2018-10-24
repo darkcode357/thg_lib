@@ -2,10 +2,22 @@ import itertools
 import binascii
 from THG_libs.thg_auxiliares.thg_debug.debug import Debug
 class Convert:
+    """
+    class responsavel para conversao de dados
+    str para bytes
+    bytes para str
+    str para hex
+    hex para str
+
+    """
     def __init__(self):
         pass
 
     def str_para_bytes(self):
+        """
+        :info transforma texto em bytes
+        :return: str para bytes
+        """
         print(self.encode())
 
     def bytes_para_str(self):
