@@ -1,14 +1,11 @@
 # Changelog
 
-Esse changelog inclui apenas recursos e alterações maiores. Bugfixes e
-pequenas alterações são omitidas.
+This changelog only includes features and major changes. Bugfixes and
+minor changes are omitted.
 
-## Histórico de lançamento
-A tabela abaixo mostra qual versão corresponde a cada ramo, e em que data a versão foi lançada.
-
+## Release History
+The table below shows which version corresponds to each branch, and on which date the version was released.
 
 | Version          | Branch   | Release Date           |
 | ---------------- | -------- | ---------------------- |
-| [1.0](#)         | `dev`    | Sep 8 23:41 2018       |
-| [1.1](#)         | `stable` | Oct 6 10:39 2018       |
-| [1.2](#)         | `stable` | Oct 6 10:39 2018       | # add distorm3,capstone
+| [1.0](#)         | `dev`    | Thu Oct 25 17:32:47 UTC 2018       |
