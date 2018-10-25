@@ -1,11 +1,10 @@
 # THG - EXPLORATION LIBRARY TOOLKIT
 ![Screenshot](https://github.com/darkcode357/thg_lib/blob/master/THG/THG-2.png)
-[![Docs](https://darkcode357.github.io/thg_lib/)](https://darkcode357.github.io/thg_lib/)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/AFNetworking.svg)](https://darkcode357.github.io/thg_lib/)
 [![PyPI](https://img.shields.io/badge/pypi-v1.0-green.svg?style=flat)](https://github.com/darkcode357/thg_lib)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-thg is a framework framework. Written in Python, it is designed for fast and fast, and is intended to make writing writing as simple as possible in various scenarios.
-```python
+thg is a framework framework. Written in Python, it is designed to be fast and fast, and aims to make writing as simple as possible in various scenarios for creating tools and using dynamic mode in the python interactive terminal```python
 from thg import *
 total modulos => 57
 >>> thg_
