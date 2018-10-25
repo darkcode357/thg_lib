@@ -1,6 +1,5 @@
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 ## Commands
 
@@ -11,7 +10,7 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
+    THG    # Arquivos de configuracao, voltado para importacao da biblioteca.
+    THG_lib #todos os modulos da bibliotecas estao nessa pasta e podem ser acessados atraves do from THG import $nome_modulo
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.

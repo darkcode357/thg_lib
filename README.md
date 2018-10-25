@@ -10,6 +10,7 @@ python3.7, seguindo a linha do python3.x.
 
 Seguindo abaixo, temos todos os modulos da biblioteca com links magneticos para leitura da  modulo e submodulo
 
+para a documentacao completa de uma olhada [mkdocs.org](https://mkdocs.org).
 
 
 
