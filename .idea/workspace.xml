@@ -113,7 +113,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="806" />
+          <entry key="md" value="808" />
           <entry key="py" value="524" />
           <entry key="txt" value="50" />
           <entry key="yml" value="819" />
@@ -121,7 +121,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="805" />
+          <entry key="Markdown" value="807" />
           <entry key="PLAIN_TEXT" value="50" />
           <entry key="Python" value="525" />
           <entry key="YAML" value="819" />
@@ -207,7 +207,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="270">
-                <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+                <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -565,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540498338879</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix read">
+      <created>1540498418878</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540498418878</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -902,7 +909,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
-            <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
