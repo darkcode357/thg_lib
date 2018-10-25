@@ -1,130 +1,36 @@
-# thg_lib
-python exploit developer
-fix all
-
+# THG - EXPLORATION LIBRARY TOOLKIT
 ![Screenshot](https://github.com/darkcode357/thg_lib/blob/master/THG/THG-2.png)
-
-
-O thg vem com objetivo de ser uma biblioteca  voltado para desenvilvimentos de ferramentas em 
-python3.7, seguindo a linha do python3.x.
-
-Seguindo abaixo, temos todos os modulos da biblioteca com links magneticos para leitura da  modulo e submodulo
-
-para a documentacao completa de uma olhada [mkdocs.org](https://mkdocs.org).
-
-
-
-thg_server
-
-thg_version
-
-thg_shells
-
-thg_docs
-
-thg_auxiliares
-
-thg_anti_forensic
-
-thg_crypto
-
-thg_drone
-
-thg_keylogger
-
-thg_recon
-
-thg_voip
-
-thg_automation
-
-thg_cryptography
-
-thg_exploitation
-
-thg_malware
-
-thg_reversing
-
-thg_windows
-
-thg_automobile
-
-thg_database
-
-thg_fingerprint
-
-thg_misc
-
-thg_sniffer
-
-thg_wireless
-
-thg_auxiliares
-
-thg_debugger
-
-thg_firmware
-
-thg_mobile
-
-thg_social
-
-thg_backdoor
-
-thg_decompiler
-
-thg_forensic
-
-thg_networking
-
-thg_spoff
-
-thg_binary
-
-thg_defensensive
-
-thg_gpu
-
-thg_os
-
-thg_nfc
-
-thg_nfc
-
-thg_spoof
-
-thg_version
-
-thg_bluetooth
-
-thg_defensive
-
-thg_hardware
-
-thg_packer
-
-thg_stego
-
-thg_code_audit
-
-thg_disassembler
-
-thg_honeypot
-
-thg_proxy
-
-thg_tunnel
-
-thg_cracker
-
-thg_dos
-
-thg_ids
-
-thg_radio
-
-thg_unpacker
-
-thg_auxiliares
-
+[![Docs](https://darkcode357.github.io/thg_lib/)](https://darkcode357.github.io/thg_lib/)
+[![PyPI](https://img.shields.io/badge/pypi-v1.0-green.svg?style=flat)](https://github.com/darkcode357/thg_lib)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+
+thg is a framework framework. Written in Python, it is designed for fast and fast, and is intended to make writing writing as simple as possible in various scenarios.
+```python
+from thg import *
+████████╗██╗  ██╗███████╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗      ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ 
+╚══██╔══╝██║  ██║██╔════╝    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗    ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗
+   ██║   ███████║█████╗      ███████║███████║██║     █████╔╝ █████╗  ██████╔╝    ██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝
+   ██║   ██╔══██║██╔══╝      ██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗    ██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ 
+   ██║   ██║  ██║███████╗    ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║    ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     
+   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     
+                   
+
+total modulos => 57
+
+>>> thg_
+thg_anti_forensic  thg_binary         thg_cryptography   thg_defensive      thg_exploitation   thg_hardware       thg_misc           thg_packer         thg_server         thg_spoof          thg_voip
+thg_automation     thg_bluetooth      thg_database       thg_disassembler   thg_fingerprint    thg_honeypot       thg_mobile         thg_proxy          thg_shells         thg_stego          thg_windows
+thg_automobile     thg_code_audit     thg_debugger       thg_docs           thg_firmware       thg_ids            thg_networking     thg_radio          thg_sniffer        thg_tunnel         thg_wireless
+thg_auxiliares     thg_cracker        thg_decompiler     thg_dos            thg_forensic       thg_keylogger      thg_nfc            thg_recon          thg_social         thg_unpacker       
+thg_backdoor       thg_crypto         thg_defensensive   thg_drone          thg_gpu            thg_malware        thg_os             thg_reversing      thg_spoff          thg_version
+```
+
+# Documentation
+Our documentation is available at [thg_lib](https://darkcode357.github.io/thg_lib/)
+# Installation
+However, some of the features (assembling / disassembling foreign architectures) require non-Python dependencies. For more information, see the [complete installation instructions here] (https://darkcode357.github.io/thg_lib/cli/install/).
+# Contribution
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+# Contact
+If you have any questions not worthy of a
+[bug report](https://github.com/darkcode357/thg_lib/issues), feel free to ping us
