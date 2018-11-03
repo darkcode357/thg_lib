@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+     <loc>https://github.com/darkcode357/thg_lib/cli/install/</loc>
+     <lastmod>2018-11-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://github.com/darkcode357/thg_lib/</loc>
      <lastmod>2018-11-03</lastmod>
      <changefreq>daily</changefreq>
@@ -52,26 +57,6 @@
     </url>
     <url>
      <loc>https://github.com/darkcode357/thg_lib/deployment/</loc>
-     <lastmod>2018-11-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/cli/install/</loc>
-     <lastmod>2018-11-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/cli/templates/</loc>
-     <lastmod>2018-11-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/cli/build/</loc>
-     <lastmod>2018-11-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/cli/tags/</loc>
      <lastmod>2018-11-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
