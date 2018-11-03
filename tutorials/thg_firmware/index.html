@@ -1,451 +1,495 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <meta name="author" content="darkcode0x00">
-        <link rel="canonical" href="https://github.com/darkcode357/thg_lib/tutorials/thg_firmware/">
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>thg_firmware - THE HACKER GROUP</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="darkcode0x00">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>thg_firmware - THE HACKER GROUP</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "thg_firmware";
+    var mkdocs_page_input_path = "tutorials/thg_firmware.md";
+    var mkdocs_page_url = "/darkcode357/thg_lib/tutorials/thg_firmware/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
 
-    <body>
+<body class="wy-body-for-nav" role="document">
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
+  <div class="wy-grid-for-nav">
 
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../..">THE HACKER GROUP</a>
-                </div>
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> THE HACKER GROUP</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
 
-                <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../..">Introduction</a>
-</li>
-                                    
-<li >
-    <a href="../../community/">Community</a>
-</li>
-                                    
-<li >
-    <a href="../../conceptual/">Conceptual</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../deployment/">Deployment</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">CLI <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../cli/install/">Installation</a>
-</li>
-                                    
-<li >
-    <a href="../../cli/templates/">Create functions</a>
-</li>
-                                    
-<li >
-    <a href="../../cli/build/">Build functions</a>
-</li>
-                                    
-<li >
-    <a href="../../cli/tags/">Working with tags</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials-1 <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../thg/">THG</a>
-</li>
-                                    
-<li >
-    <a href="../thg_server/">thg_server</a>
-</li>
-                                    
-<li >
-    <a href="../thg_version/">thg_version</a>
-</li>
-                                    
-<li >
-    <a href="../thg_shells/">thg_shells</a>
-</li>
-                                    
-<li >
-    <a href="../thg_docs/">thg_docs</a>
-</li>
-                                    
-<li >
-    <a href="../thg_auxiliares/">thg_auxiliares</a>
-</li>
-                                    
-<li >
-    <a href="../thg_anti_forensic/">thg_anti_forensic</a>
-</li>
-                                    
-<li >
-    <a href="../thg_crypto/">thg_crypto</a>
-</li>
-                                    
-<li >
-    <a href="../thg_drone/">thg_drone</a>
-</li>
-                                    
-<li >
-    <a href="../thg_keylogger/">thg_keylogger</a>
-</li>
-                                    
-<li >
-    <a href="../thg_recon/">thg_recon</a>
-</li>
-                                    
-<li >
-    <a href="../thg_voip/">thg_voip</a>
-</li>
-                                    
-<li >
-    <a href="../thg_automation/">thg_automation</a>
-</li>
-                                    
-<li >
-    <a href="../thg_cryptography/">thg_cryptography</a>
-</li>
-                                    
-<li >
-    <a href="../thg_exploitation/">thg_exploitation</a>
-</li>
-                                    
-<li >
-    <a href="../thg_malware/">thg_malware</a>
-</li>
-                                    
-<li >
-    <a href="../thg_reversing/">thg_reversing</a>
-</li>
-                                    
-<li >
-    <a href="../thg_windows/">thg_windows</a>
-</li>
-                                    
-<li >
-    <a href="../thg_automobile/">thg_automobile</a>
-</li>
-                                    
-<li >
-    <a href="../thg_database/">thg_database</a>
-</li>
-                                    
-<li >
-    <a href="../thg_fingerprint/">thg_fingerprint</a>
-</li>
-                                    
-<li >
-    <a href="../thg_misc/">thg_misc</a>
-</li>
-                                    
-<li >
-    <a href="../thg_sniffer/">thg_sniffer</a>
-</li>
-                                    
-<li >
-    <a href="../thg_wireless/">thg_wireless</a>
-</li>
-                                    
-<li >
-    <a href="../thg_debugger/">thg_debugger</a>
-</li>
-                                    
-<li class="active">
-    <a href="./">thg_firmware</a>
-</li>
-                                    
-<li >
-    <a href="../thg_mobile/">thg_mobile</a>
-</li>
-                                    
-<li >
-    <a href="../thg_social/">thg_social</a>
-</li>
-                                    
-<li >
-    <a href="../thg_backdoor/">thg_backdoor</a>
-</li>
-                                    
-<li >
-    <a href="../thg_decompiler/">thg_decompiler</a>
-</li>
-                                    
-<li >
-    <a href="../thg_forensic/">thg_forensic</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials-2 <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../thg_networking/">thg_networking</a>
-</li>
-                                    
-<li >
-    <a href="../thg_spoff/">thg_spoff</a>
-</li>
-                                    
-<li >
-    <a href="../thg_binary/">thg_binary</a>
-</li>
-                                    
-<li >
-    <a href="../thg_defensensive/">thg_defensensive</a>
-</li>
-                                    
-<li >
-    <a href="../thg_gpu/">thg_gpu</a>
-</li>
-                                    
-<li >
-    <a href="../thg_os/">thg_os</a>
-</li>
-                                    
-<li >
-    <a href="../thg_nfc/">thg_nfc</a>
-</li>
-                                    
-<li >
-    <a href="../thg_spoof/">thg_spoof</a>
-</li>
-                                    
-<li >
-    <a href="../thg_version/">thg_version</a>
-</li>
-                                    
-<li >
-    <a href="../thg_bluetooth/">thg_bluetooth</a>
-</li>
-                                    
-<li >
-    <a href="../thg_defensive/">thg_defensive</a>
-</li>
-                                    
-<li >
-    <a href="../thg_hardware/">thg_hardware</a>
-</li>
-                                    
-<li >
-    <a href="../thg_packer/">thg_packer</a>
-</li>
-                                    
-<li >
-    <a href="../thg_stego/">thg_stego</a>
-</li>
-                                    
-<li >
-    <a href="../thg_code_audit/">thg_code_audit</a>
-</li>
-                                    
-<li >
-    <a href="../thg_disassembler/">thg_disassembler</a>
-</li>
-                                    
-<li >
-    <a href="../thg_honeypot/">thg_honeypot</a>
-</li>
-                                    
-<li >
-    <a href="../thg_proxy/">thg_proxy</a>
-</li>
-                                    
-<li >
-    <a href="../thg_tunnel/">thg_tunnel</a>
-</li>
-                                    
-<li >
-    <a href="../thg_cracker/">thg_cracker</a>
-</li>
-                                    
-<li >
-    <a href="../thg_dos/">thg_dos</a>
-</li>
-                                    
-<li >
-    <a href="../thg_ids/">thg_ids</a>
-</li>
-                                    
-<li >
-    <a href="../thg_radio/">thg_radio</a>
-</li>
-                                    
-<li >
-    <a href="../thg_unpacker/">thg_unpacker</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li >
-    <a href="../../contributing/get-started/">Get Started</a>
-</li>
-                                </ul>
-                            </li>
-                            <li >
-                                <a href="../../LICENSE/">LICENSE</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li >
-                                <a rel="next" href="../thg_debugger/">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../thg_mobile/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/darkcode357/thg_lib/edit/master/docs/tutorials/thg_firmware.md"><i class="fa fa-github"></i> Edit on GitHub</a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Overview</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../..">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../community/">Community</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../conceptual/">Conceptual</a>
+                </li>
     </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <span class="caption-text">capture the flag</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <span class="caption-text">identify</span>
+    <ul class="subnav">
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/basic/">basic</a>
+                </li>
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/nmap/">nmap</a>
+                </li>
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/nessus/">nessus</a>
+                </li>
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/openvas/">openvas</a>
+                </li>
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/windows/">windows</a>
+                </li>
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/identify/linux/">linux</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3">
+                    
+    <span class="caption-text">defend</span>
+    <ul class="subnav">
+                <li class="toctree-l4">
+                    
+    <a class="" href="../../capturetheflag/basic/prootect_defend/windows/">windows</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../deployment/">Deployment</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">CLI</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../cli/install/">Installation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../cli/templates/">Create functions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../cli/build/">Build functions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../cli/tags/">Working with tags</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tutorials-1</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../thg/">THG</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_server/">thg_server</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_version/">thg_version</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_shells/">thg_shells</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_docs/">thg_docs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_auxiliares/">thg_auxiliares</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_anti_forensic/">thg_anti_forensic</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_crypto/">thg_crypto</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_drone/">thg_drone</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_keylogger/">thg_keylogger</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_recon/">thg_recon</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_voip/">thg_voip</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_automation/">thg_automation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_cryptography/">thg_cryptography</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_exploitation/">thg_exploitation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_malware/">thg_malware</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_reversing/">thg_reversing</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_windows/">thg_windows</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_automobile/">thg_automobile</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_database/">thg_database</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_fingerprint/">thg_fingerprint</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_misc/">thg_misc</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_sniffer/">thg_sniffer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_wireless/">thg_wireless</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_debugger/">thg_debugger</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">thg_firmware</a>
+    <ul class="subnav">
+            
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_mobile/">thg_mobile</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_social/">thg_social</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_backdoor/">thg_backdoor</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_decompiler/">thg_decompiler</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_forensic/">thg_forensic</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Tutorials-2</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../thg_networking/">thg_networking</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_spoff/">thg_spoff</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_binary/">thg_binary</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_defensensive/">thg_defensensive</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_gpu/">thg_gpu</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_os/">thg_os</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_nfc/">thg_nfc</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_spoof/">thg_spoof</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_version/">thg_version</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_bluetooth/">thg_bluetooth</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_defensive/">thg_defensive</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_hardware/">thg_hardware</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_packer/">thg_packer</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_stego/">thg_stego</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_code_audit/">thg_code_audit</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_disassembler/">thg_disassembler</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_honeypot/">thg_honeypot</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_proxy/">thg_proxy</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_tunnel/">thg_tunnel</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_cracker/">thg_cracker</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_dos/">thg_dos</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_ids/">thg_ids</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_radio/">thg_radio</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../thg_unpacker/">thg_unpacker</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Contributing</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../contributing/get-started/">Get Started</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../LICENSE/">LICENSE</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
 
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">THE HACKER GROUP</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tutorials-1 &raquo;</li>
+        
+      
+    
+    <li>thg_firmware</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/darkcode357/thg_lib/edit/master/docs/tutorials/thg_firmware.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
 </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-                <p>Copyright &copy; 2019 THG_lib Project by darkcode</p>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+          <div role="main">
+            <div class="section">
+              
+                
+              
             </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../thg_mobile/" class="btn btn-neutral float-right" title="thg_mobile">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../thg_debugger/" class="btn btn-neutral" title="thg_debugger"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2019 THG_lib Project by darkcode</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
         </div>
-    </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/darkcode357/thg_lib/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../thg_debugger/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../thg_mobile/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
 </div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
 
-    </body>
+</body>
 </html>

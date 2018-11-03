@@ -1,5 +1,6 @@
 import os
 import glob
+
 __thg_module__ = [
     'thg_server',
     'thg_version',
@@ -61,71 +62,11 @@ __thg_module__ = [
 ]
 for i in __thg_module__:
     try:
-       os.system("touch "+i+".md")
+        os.system("touch " + i + ".md")
 
     except FileExistsError:
-        print(i+" pass")
+        print(i + " pass")
 
 '''
  
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
