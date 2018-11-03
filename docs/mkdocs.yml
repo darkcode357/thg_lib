@@ -2,8 +2,12 @@ site_name: THE HACKER GROUP
 site_url: https://github.com/darkcode357/thg_lib
 site_description: documentacao do thg_lib
 site_author: darkcode0x00
-
 repo_url: https://github.com/darkcode357/thg_lib
+
+theme: readthedocs
+
+extra:
+  theme_inverse: true
 
 # Copyright
 copyright: "Copyright &copy; 2019 THG_lib Project by darkcode"
@@ -25,6 +29,7 @@ extra:
 
 
 nav:
+
 - Overview:
   - Introduction: index.md
   - Community: community.md
@@ -97,6 +102,5 @@ nav:
   - Get Started: ./contributing/get-started.md
 
 - LICENSE: ./LICENSE.md
-plugins:
-- search
+
 

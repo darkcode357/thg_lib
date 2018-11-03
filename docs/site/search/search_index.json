@@ -69,8 +69,18 @@
     },
     {
       "location": "contributing/get-started/",
-      "text": "",
+      "text": "Contributing Github has a great guide for contributing to open source projects: Contributing to a project Fork the repository Clone your fork Making and pushing changes Making a Pull Request Huzzah! thg Specifics In general, we like to keep things documented. You should add documentation to any new functionality, and update it for any changed functionality. Our docstrings use the [Google Style Python Docstrings] (https://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html#example-google). Finally, it is probably a good idea to run the test suite locally before doing the pull-request to make sure everything works, however this is not a requirement. Once you are ready to pull-request, you should figure out if your changes or a bugfix in stable or beta. If it is a bugfix in stable or beta, you should do the pull-request against the branch in question, and otherwise your pull-request should be against the dev branch.",
       "title": "Get Started"
+    },
+    {
+      "location": "contributing/get-started/#contributing",
+      "text": "Github has a great guide for contributing to open source projects: Contributing to a project Fork the repository Clone your fork Making and pushing changes Making a Pull Request Huzzah!",
+      "title": "Contributing"
+    },
+    {
+      "location": "contributing/get-started/#thg-specifics",
+      "text": "In general, we like to keep things documented. You should add documentation to any new functionality, and update it for any changed functionality. Our docstrings use the [Google Style Python Docstrings] (https://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html#example-google). Finally, it is probably a good idea to run the test suite locally before doing the pull-request to make sure everything works, however this is not a requirement. Once you are ready to pull-request, you should figure out if your changes or a bugfix in stable or beta. If it is a bugfix in stable or beta, you should do the pull-request against the branch in question, and otherwise your pull-request should be against the dev branch.",
+      "title": "thg Specifics"
     },
     {
       "location": "tutorials/thg/",
@@ -79,7 +89,7 @@
     },
     {
       "location": "tutorials/thg_anti_forensic/",
-      "text": "",
+      "text": "Pacotes relacionados a o uso de contra forense, incluindo encripta\u00e7\u00e3o, estenografia, e tudo para modificar os atributos de arquivo/arquivos. Inclui todas as ferramentas para trabalhar com tudo em geral para modificar um sistema com o prop\u00f3sito de esconder uma informa\u00e7\u00e3o.",
       "title": "thg_anti_forensic"
     },
     {
