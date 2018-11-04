@@ -21,6 +21,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://github.com/darkcode357/thg_lib/capturetheflag/basic/tips_end_tricks/tools/</loc>
+     <lastmod>2018-11-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://github.com/darkcode357/thg_lib/capturetheflag/basic/identify/basic/</loc>
      <lastmod>2018-11-04</lastmod>
      <changefreq>daily</changefreq>
@@ -101,21 +106,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/capturetheflag/basic/analysis/malware/</loc>
-     <lastmod>2018-11-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/capturetheflag/basic/analysis/linux/</loc>
-     <lastmod>2018-11-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/darkcode357/thg_lib/capturetheflag/basic/analysis/windows/</loc>
-     <lastmod>2018-11-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://github.com/darkcode357/thg_lib/deployment/</loc>
      <lastmod>2018-11-04</lastmod>
      <changefreq>daily</changefreq>
@@ -126,18 +116,18 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_server/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_version/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_shells/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -146,63 +136,63 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_auxiliares/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_anti_forensic/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_crypto/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_drone/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_keylogger/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_recon/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_voip/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_automation/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_cryptography/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_exploitation/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_malware/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_reversing/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -211,188 +201,188 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_automobile/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_database/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_fingerprint/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_misc/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_sniffer/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_wireless/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_debugger/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_firmware/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_mobile/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_social/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_backdoor/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_decompiler/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_forensic/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_networking/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_spoff/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_binary/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_defensensive/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_gpu/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_os/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_nfc/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_spoof/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_version/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_bluetooth/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_defensive/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_hardware/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_packer/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_stego/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_code_audit/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_disassembler/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_honeypot/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_proxy/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_tunnel/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_cracker/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_dos/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_ids/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_radio/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/darkcode357/thg_lib/tutorials/thg_unpacker/</loc>
-     <lastmod>2018-11-04</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
