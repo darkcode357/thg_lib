@@ -8,4 +8,4 @@ The table below shows which version corresponds to each branch, and on which dat
 
 | Version          | Branch   | Release Date           |
 | ---------------- | -------- | ---------------------- |
-| [1.0](#)         | `dev`    | Thu Oct 25 17:32:47 UTC 2018       |
+| [1.0](#)         | `dev`    |      |

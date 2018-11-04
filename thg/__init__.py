@@ -6,10 +6,10 @@ from __future__ import absolute_import
 import platform
 import os
 import subprocess
-from thglibs.thg_auxiliares.thg_debug.debug import Debug
-from thglibs.thg_auxiliares.thg_cores.cores import Cores
-from thglibs.thg_auxiliares.thg_check_hosts.check_host import Check_all
-from thglibs.thg_version.version import version
+from thglibs.auxiliares.debug.debug import Debug
+from thglibs.auxiliares.cores.cores import Cores
+from thglibs.auxiliares.thg_check_hosts.check_host import Check_all
+from thglibs.version.version import version
 import socket
 #import ipgetter
 import sys
