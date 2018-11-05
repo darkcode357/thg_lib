@@ -27,11 +27,18 @@ nav:
 
 - capture the flag:
   - basic:
+    - analysis:
+      - linux: ./capturetheflag/basic/analysis/linux.md
+      - windows: ./capturetheflag/basic/analysis/windows.md
+      - malware: ./capturetheflag/basic/analysis/malware.md
+    - recovery:
+      - backup: ./capturetheflag/basic/recover/backuo.md
+      - patching: ./capturetheflag/basic/recover/patching.md
     - tips_end_tricks:
       - tools: ./capturetheflag/basic/tips_end_tricks/tools.md
       - decoding: ./capturetheflag/basic/tips_end_tricks/decoding.md
       - dos: ./capturetheflag/basic/tips_end_tricks/dos.md
-      - os_cheats: ./capturetheflag/basic/tips_end_tricks/os_cheat.md
+      - os_cheats: ./capturetheflag/basic/tips_end_tricks/os_cheats.md
       - snort: ./capturetheflag/basic/tips_end_tricks/snort.md
     - identify:
       - basic: ./capturetheflag/basic/identify/basic.md
@@ -115,7 +122,9 @@ nav:
     - thg_unpacker: ./tutorials/unpacker.md
 - Contributing:
   - Get Started: ./contributing/get-started.md
-
+  - templates: cli/templates.md
+  - build: cli/build.md
+  - tags: cli/tags.md
   - LICENSE: ./LICENSE.md
 
 

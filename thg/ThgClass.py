@@ -17,3 +17,5 @@ class THG_class(type):
 
     def __le__(self, other):
         return len(self) <= len(other)
+    def __dsadarkcode__(cls):
+        dsadsa
